@@ -1,0 +1,18 @@
+<html>
+	<body>
+		<form>
+			<h1>Create account</h1>
+			<h2>Nombre:</h2>
+			<input type="text"name="nombre"value=""/><br/>
+			<p>Email:
+			<input type="email"name="e-correo"value="correo@email.com"/></p>
+			<p>Clave:
+			<input type="password"name="clave1"minlength="8"/></p>
+			<p>Confirme su clave:
+			<input type="password"name="clave2"minlength="8"/></p>
+			if clave1!=clave2:
+				alert("Las claves no coinciden")
+			<button type="submit">Enviar</button>
+		</form>
+	</body>
+</html>
